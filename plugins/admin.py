@@ -11,9 +11,9 @@ from helper.date import add_date
 
 from helper.database import uploadlimit, usertype, addpre
 
-ADMIN = int(os.environ.get("ADMIN", 1484670284))
+ADMIN = int(os.environ.get("ADMIN", 6301693754))
 
-log_channel = int(os.environ.get("LOG_CHANNEL", ""))
+log_channel = int(os.environ.get("LOG_CHANNEL", "-1002094085015"))
 
 
 
