@@ -1,5 +1,4 @@
- 
-   from datetime import timedelta, date ,datetime
+from datetime import timedelta, date ,datetime
 import time
 
 def add_date():
