@@ -2,8 +2,8 @@ import os
 from pymongo import MongoClient
 from helper.date import add_date
 
-db_name = os.getenv("DB_NAME", "")
-db_url = os.getenv("DB_URL", "")
+db_name = os.getenv("DB_NAME", "Cluster0")
+db_url = os.getenv("DB_URL", "mongodb+srv://daniel811802:0wQNzmwMkUiqOZa1@cluster0.8jaksiw.mongodb.net/?retryWrites=true&w=majority")
 
 client = MongoClient(db_url)
 db = client[db_name]
