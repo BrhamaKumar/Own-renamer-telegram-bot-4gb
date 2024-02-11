@@ -26,14 +26,14 @@ if STRING:
     client = Client("Renamer", bot_token=TOKEN, api_id=API_ID, api_hash=API_HASH, plugins=dict(root='plugins'))
 
     # Start both instances
-    client2.start()
+    
     client.start()
 
     # Wait for both instances to finish processing messages
     idle()
 
     # Stop both instances
-    client2.stop()
+    
     client.stop()
 else:
     # Start the Client instance
