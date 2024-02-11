@@ -22,7 +22,7 @@ bot = Client(
            
 if STRING:
     # Create instances of the Client2 and Client classes
-    client2 = Client2(STRING)
+    
     client = Client("Renamer", bot_token=TOKEN, api_id=API_ID, api_hash=API_HASH, plugins=dict(root='plugins'))
 
     # Start both instances
